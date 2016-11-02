@@ -1,0 +1,22 @@
+{
+  "name": "ng2-library",
+  "version": "0.0.0",
+  "description": "An example Angular2 library",
+  "main": "index.js",
+  "author": "Alex Rickabaugh <arick@google.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^2.1.2",
+    "@angular/compiler": "^2.1.2",
+    "@angular/compiler-cli": "^2.1.2",
+    "@angular/core": "^2.1.2",
+    "@angular/platform-browser": "^2.1.2",
+    "@angular/platform-browser-dynamic": "^2.1.2",
+    "rxjs": "^5.0.0-rc.1",
+    "ts-node": "^1.6.1",
+    "typescript": "^2.0.6"
+  },
+  "scripts": {
+    "ngc": "node_modules/.bin/ngc -p tsconfig.json"
+  }
+}
